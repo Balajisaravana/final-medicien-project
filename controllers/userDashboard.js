@@ -15,7 +15,7 @@ router.get('/', (req, res)=>{
 });
 
 router.post('/', (req, res)=>{
-	/* if(req.session.name != 'khalid' && req.session.name != null ){
+	 if(req.session.name != 'khalid' && req.session.name != null ){
 		 userModel.getUsers(function(result) {
 			  obj = {
 				getUsers: result
@@ -50,7 +50,7 @@ router.post('/', (req, res)=>{
 
 			else{
 				res.render('login');
-			} */
+			} 
 
 });
 

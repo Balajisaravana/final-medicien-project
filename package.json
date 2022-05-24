@@ -1,23 +1,37 @@
 {
   "name": "medicine",
   "version": "1.0.0",
-  "description": "",
+  "description": "Consider about a “Online Medicine Shop” which will facilitate its users by providing a wide range of medicines at their dire necessity. The required features are: -\r * There will be mainly two types of user- *ADMIN* and *CUSTOMER*\r * Provide a registration page for both types of user.\r * Only valid users can log into the system.\r * Provide a profile page for the users where they can modify their personal\r information‟s. Also provide a navigation to the profile page from the home\r page.\r * The ADMIN will have the administrative capabilities. ADMIN will add,\r delete or modify different types of medicines information.\r * ADMIN can delete existing CUSTOMER.\r * Different types of medicines must be categorized. For example, there may be\r medicines for aspirin genre, paracetamol genre etc.\r * Under every primary category there will be various medicines. One thing to\r notice here, the medicines may be of liquid type or solid. So, provide logical\r segmentation between them.\r * For every medicine provide the vendor name, price, availability etc\r information‟s.\r * The CUSTOMERs can browse through the site and view different medicines.\r They also can order medicines.\r * Provide a search filed for the CUSTOMER so that they can search for exact\r medicine they are looking for.\r * Facilitate the search box by adding filtering methods like, search by vendor,\r search by genre etc.\r * There will be an option available to add medicines to the cart. The\r CUSTOMER can add as many as medicines in the cart as per his/her\r requirement. Don‟t forget to add a quantity field.\r * The CUSTOMER must be able to increase or decrease the quantity of the\r medicines and remove or add more medicines to the cart.\r * After finalization of the medicines in cart CUSTOMER must be able to\r confirm the purchase request. During this phase ask CUSTOMER for the\r address.\r * Invoice regarding lists of medicines selected, corresponding price will be\r shown to the CUSTOMER and if confirmed show him/her the payment\r method. Payment method must be selected to confirm the purchase request.\r * After confirmation of payment, successful order list will be shown to the\r CUSTOMER.\r * Only the ADMIN will have the capabilities of accepting or rejecting an order\r list.\r * The ADMIN will be able to see all available purchase request details.\r * There will be purchase list history of all CUSTOMERs which will only be\r visible to the ADMIN.\r 8",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "lint": "eslint",
+    "serve": "webpack serve --mode development"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel": "^6.23.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.4",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "mysql": "^2.16.0",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   },
   "devDependencies": {
+    "eslint": "^8.16.0",
     "nodemon": "^1.18.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balajisaravana/Online-Medicine-Shop-NodeJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Balajisaravana/Online-Medicine-Shop-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Balajisaravana/Online-Medicine-Shop-NodeJS#readme"
 }

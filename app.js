@@ -57,26 +57,26 @@ app.use('/orders',express.static('assets'));
 app.use('/allusers/edit/:id',express.static('assets'));
 
 
-/*
-app.use('/home', home);
 
-app.use('/home', home);
+// app.use('/home', home);
 
-
-app.use('/addnewhotel', anh);
-app.use('/viewhotels', viewhotels);
-app.use('/viewroom', viewroom);
-app.use('/addroom', adminAddNewRoom);
-
-app.use('/enquiry', hotelEnquiry);
+// app.use('/home', home);
 
 
+// app.use('/addnewhotel', anh);
+// app.use('/viewhotels', viewhotels);
+// app.use('/viewroom', viewroom);
+// app.use('/addroom', adminAddNewRoom);
 
-app.use('/admindashboard/assets/',express.static('assets'));
-app.use('/hotel-room/assets',express.static('assets'));
-app.use('/hotel-room/:id/assets',express.static('assets'));
+// app.use('/enquiry', hotelEnquiry);
 
-app.use('/viewroom/edit/:id',express.static('assets')); */
+
+
+// app.use('/admindashboard/assets/',express.static('assets'));
+// app.use('/hotel-room/assets',express.static('assets'));
+// app.use('/hotel-room/:id/assets',express.static('assets'));
+
+// app.use('/viewroom/edit/:id',express.static('assets')); 
 
 
 
